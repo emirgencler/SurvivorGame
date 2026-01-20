@@ -10,6 +10,18 @@
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
+# IDE files
+.classpath
+.project
+.settings/
+.idea/
+.vscode/
+*.iml
+
+# macOS
+.DS_Store
+__MACOSX/
+
 # Package Files #
 *.jar
 *.war
