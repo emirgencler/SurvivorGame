@@ -67,7 +67,7 @@ Players allocate 30 points across:
 - **Damage**: 1 damage = 3 points
 - **Abilities** (unlocked with 10+ leftover points):
   - `DamageDealer`: +10% Health
-  -  `Evolotion` (simplified evolution mechanic): +10% Damage
+  -  `Evolution`: +10% Damage
 
 
 ### Results Summary
