@@ -1,0 +1,19 @@
+Analysis Started
+Config: buildSamples=2000, trialsPerBuild=200, seed=42
+
+Enemy=Zombie (H=10 D=3) | Difficulty=1 | OFF=11.00% | ON=9.00% | Δ=-2.00%
+Enemy=Vampire (H=14 D=1) | Difficulty=1 | OFF=100.00% | ON=100.00% | Δ=0.00%
+Enemy=Big Slime (H=20 D=5) | Difficulty=1 | OFF=1.50% | ON=1.50% | Δ=0.00%
+---
+Enemy=Zombie (H=10 D=3) | Difficulty=2 | OFF=1.50% | ON=1.00% | Δ=-0.50%
+Enemy=Vampire (H=14 D=1) | Difficulty=2 | OFF=31.00% | ON=34.50% | Δ=3.50%
+Enemy=Big Slime (H=20 D=5) | Difficulty=2 | OFF=0.50% | ON=0.50% | Δ=0.00%
+---
+Enemy=Zombie (H=10 D=3) | Difficulty=3 | OFF=0.00% | ON=0.50% | Δ=0.50%
+Enemy=Vampire (H=14 D=1) | Difficulty=3 | OFF=2.00% | ON=3.00% | Δ=1.00%
+Enemy=Big Slime (H=20 D=5) | Difficulty=3 | OFF=0.00% | ON=0.00% | Δ=0.00%
+---
+Enemy=Zombie (H=10 D=3) | Difficulty=4 | OFF=0.00% | ON=0.00% | Δ=0.00%
+Enemy=Vampire (H=14 D=1) | Difficulty=4 | OFF=0.00% | ON=0.50% | Δ=0.50%
+Enemy=Big Slime (H=20 D=5) | Difficulty=4 | OFF=0.00% | ON=0.00% | Δ=0.00%
+---
