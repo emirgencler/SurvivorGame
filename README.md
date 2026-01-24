@@ -158,13 +158,13 @@ Parameters: `[buildSamples] [trialsPerBuild] [randomSeed]`
 - **Object-oriented design** for scalable game systems
 - Importance of **data-driven balancing** over intuition
 
----
+
 
 ## License
 
 MIT License - See [LICENSE](LICENSE) file for details
 
----
+
 
 ## Contact
 
