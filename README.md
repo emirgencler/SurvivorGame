@@ -93,9 +93,12 @@ Players allocate 30 points across:
 Ability buffs produce marginal survival changes (typically ±2%). This indicates:
 - **Core mechanics are well-balanced** - no single ability dominates outcomes
 - **Enemy scaling (count) is the primary difficulty driver** - strategic stat allocation matters more than abilities
-- **Combat is deterministic enough** to reward planning over luck
+- **Combat outcomes are sufficiently stable** across simulations to reward planning over pure randomness.
+
 
 The analysis validates that survival depends on **resource management and build optimization** rather than ability selection alone.
+This approach demonstrates how statistical simulation can guide balancing decisions in game design without relying solely on player intuition.
+
 
 ---
 
