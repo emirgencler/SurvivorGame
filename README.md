@@ -1,6 +1,6 @@
 # Survivor Game - A Statistical Approach to Game Balance
 
-A Java-based survival game with integrated Monte Carlo simulation for combat balance analysis.
+A Java-based survival game whose combat balance is validated using Monte Carlo simulation and ablation studies, showing that difficulty is driven by enemy scaling rather than overpowered abilities.
 
 ## Project Overview
 
