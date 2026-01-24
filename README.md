@@ -5,10 +5,10 @@ A Java-based survival game with integrated Monte Carlo simulation for combat bal
 ## Project Overview
 
 This project demonstrates:
-- **Object-oriented game design** with location-based progression system
-- **Turn-based combat mechanics** with multiple enemy types and strategic resource management
-- **Monte Carlo simulation** (2000+ samples, 200 trials each) to analyze ability impact on survival rates
-- **Data-driven game balancing** using ablation study methodology
+- Object-oriented game design with location-based progression system
+- Turn-based combat mechanics with multiple enemy types and strategic resource management
+- Monte Carlo simulation (2000+ samples, 200 trials each) to analyze ability impact on survival rates
+- Data-driven game balancing using ablation study methodology
 
 **Key Finding**: Survival probability is primarily determined by enemy count scaling (±2% ability impact), indicating well-balanced core mechanics where strategic resource allocation matters more than individual buffs.
 
@@ -24,9 +24,9 @@ Rather than spending weeks playtesting different ability combinations, I impleme
 - Compares survival rates across all enemy types and difficulties
 - Uses ablation methodology to isolate the impact of each game mechanic
 
-This approach demonstrates how **statistical analysis can replace manual playtesting** during development—a technique used by AAA studios for balancing card games, roguelikes, and procedural content.
+This approach demonstrates how statistical analysis can replace manual playtesting during development.
 
-The project combines **game development** with **data science**, showing that well-designed systems can be validated mathematically before players ever see them.
+The project combines game development with data science, showing that well-designed systems can be validated mathematically before players ever see them.
 
 
 
@@ -34,11 +34,11 @@ The project combines **game development** with **data science**, showing that we
 ## Game Features
 
 ### Locations
-- **Safe House** - Starting area
-- **Tool Store** - Equipment upgrades
-- **Cave** - Mid-game challenge
-- **Forest** - Advanced combat zone
-- **Beach** - Final endgame location (highest difficulty)
+- Safe House - Starting area
+- Tool Store - Equipment upgrades
+- Cave - Mid-game challenge
+- Forest - Advanced combat zone
+- Beach - Final endgame location (highest difficulty)
 
 ### Combat System
 - Turn-based encounters with multiple enemies per location
@@ -56,24 +56,24 @@ Resources are required to:
 - Progress through increasingly difficult encounters
 
 ### Difficulty Scaling
-- **Easy**: 3 enemies
-- **Medium**: 5 enemies  
-- **Hard**: 7 enemies
-- **Impossible**: 10 enemies
+- Easy: 3 enemies
+- Medium: 5 enemies  
+- Hard: 7 enemies
+- Impossible: 10 enemies
 
-Difficulty increases primarily through enemy count rather than individual stats, creating a **survival-oriented decision-making** experience.
+Difficulty increases primarily through enemy count rather than individual stats, creating a survival-oriented decision-making experience.
 
 ---
 
 ## Combat Balance Analysis
 
-This repository includes `Analysis.java` - an experimental module that evaluates **ability impact on survival probability** using Monte Carlo simulation.
+This repository includes `Analysis.java` - an experimental module that evaluates ability impact on survival probability using Monte Carlo simulation.
 
 ### Methodology
 
-The analysis implements an **ablation study**:
+The analysis implements an ablation study:
 - Simulates combat under identical conditions
-- Compares survival rates with abilities **ON** vs **OFF**
+- Compares survival rates with abilities ON vs OFF
 - Tests across all enemy types and difficulty levels
 - Uses 2000 random character builds × 200 trials per scenario
 
@@ -111,7 +111,7 @@ Players allocate 30 points across:
 
 Ability buffs produce marginal survival changes (typically ±2%). This indicates that
 **core mechanics are well-balanced**, with no single ability dominating outcomes, and that
-**enemy scaling (count)** is the primary driver of difficulty rather than ability selection.
+enemy count is the primary driver of difficulty rather than ability selection.
 
 Combat outcomes are sufficiently stable across simulations to reward planning over luck.
 The observed ±2% variance confirms the game achieves its design goal: **survival depends on
@@ -152,11 +152,10 @@ Parameters: `[buildSamples] [trialsPerBuild] [randomSeed]`
 
 ## What I Learned
 
-- **Monte Carlo methods** for game balance testing
-- **Ablation studies** to isolate feature impact
-- **Statistical validation** of game design decisions
-- **Object-oriented design** for scalable game systems
-- Importance of **data-driven balancing** over intuition
+- Monte Carlo methods for game balance testing
+- Statistical validation of game design decisions
+- Object-oriented design for scalable game systems
+- Importance of data-driven balancing over intuition
 
 
 
