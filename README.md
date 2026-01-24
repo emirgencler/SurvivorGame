@@ -12,7 +12,7 @@ This project demonstrates:
 
 **Key Finding**: Survival probability is primarily determined by enemy count scaling (±2% ability impact), indicating well-balanced core mechanics where strategic resource allocation matters more than individual buffs.
 
----
+
 
 ##  Why This Project?
 
@@ -29,7 +29,7 @@ This approach demonstrates how **statistical analysis can replace manual playtes
 The project combines **game development** with **data science**, showing that well-designed systems can be validated mathematically before players ever see them.
 
 
----
+
 
 ## Game Features
 
