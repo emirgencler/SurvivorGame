@@ -87,7 +87,7 @@ Players allocate 30 points across:
   -  `Evolution`: +10% Damage
 
 
-### Results Summary
+### Results
 
 | Enemy     | Difficulty     | OFF (%) | ON (%) | Δ (ON − OFF) |
 | --------- | -------------- | ------: | -----: | -----------: |
