@@ -112,7 +112,9 @@ Players allocate 30 points across:
 
 Ability buffs result in only marginal changes in survival probability (typically within ±2%).
 This indicates that the game’s core mechanics are well-balanced, with no single ability dominating outcomes.
+
 Difficulty emerges primarily from enemy count scaling rather than ability selection, ensuring that survival depends on strategic stat allocation and resource management rather than luck.
+
 The stability of results across simulations confirms that combat outcomes reward planning over randomness.
 Overall, the analysis validates the intended design goal: a survival system where balance is driven by mechanics, not buffs, and where Monte Carlo simulation can replace extensive manual playtesting during development.
 
