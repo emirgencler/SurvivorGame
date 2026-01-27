@@ -61,7 +61,7 @@ Resources are required to:
 - Hard: 7 enemies
 - Impossible: 10 enemies
 
-Difficulty increases primarily through enemy count rather than individual stats, creating a survival-oriented decision-making experience.
+
 
 ---
 
